@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(34, 36, 42);
+  color: white;
+}
+
+h1{
+    margin-top: 7%;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    margin: 0px 2px;
+    background-color: rgb(240, 139, 240);
+    color: white;
+}
+
+a {
+    padding: 10px;
+    border-radius: 2px;
+    color: white;
+}
+
