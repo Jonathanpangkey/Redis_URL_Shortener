@@ -6,7 +6,7 @@ This project is created to learn and demonstrate the usage of Redis as a key-val
 
 - **Backend**: Spring Boot, Redis
 - **Frontend**: HTML, CSS, JavaScript
-- **IDE**: IntelliJ IDEA, Visual Studio Code
+- **IDE**: An IDE, for example IntelliJ IDEA or Visual Studio Code
 
 ## How to Use
 
@@ -26,7 +26,7 @@ cd <your-repo-directory>
 ```
 
 ### Setup
-There are two directories url shortener for backend and frontent url shortener for frontend side.
+There are two directories url shortener for backend and frontend url shortener for frontend side.
 
 ### Using the Application
 
