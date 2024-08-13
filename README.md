@@ -2,12 +2,6 @@
 
 This project is created to learn and demonstrate the usage of Redis as a key-value store for URL shortening. The application consists of a backend built with Spring Boot and Redis, and a frontend built with plain HTML, CSS, and JavaScript.
 
-## Technologies Used
-
-- **Backend**: Spring Boot, Redis
-- **Frontend**: HTML, CSS, JavaScript
-- **IDE**: An IDE, for example IntelliJ IDEA or Visual Studio Code
-
 ## How to Use
 
 ### Prerequisites
