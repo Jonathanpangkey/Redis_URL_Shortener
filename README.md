@@ -2,6 +2,22 @@
 
 This project is created to learn and demonstrate the usage of Redis as a key-value store for URL shortening. The application consists of a backend built with Spring Boot and Redis, and a frontend built with plain HTML, CSS, and JavaScript.
 
+## Components
+### Backend Components
+
+- **UrlShortenerApplication.java**: Main class to run the Spring Boot application.
+- **UrlShortenerController.java**: REST controller to handle URL shortening and redirection.
+- **UrlShortenerService.java**: Service class to handle the business logic for URL shortening.
+- **UrlRequest.java**: Class to create an object that represent URL request payloads.
+- **CorsConfig.java**: Handling the cors configuration.
+
+### Frontend Components
+
+- **index.html**: Main HTML file with the form for URL input.
+- **style.css**: Basic CSS for styling the frontend.
+- **app.js**: JavaScript to handle form submission and interaction with the backend.
+
+
 ## How to Use
 
 ### Prerequisites
@@ -34,18 +50,4 @@ There are two directories url shortener for backend and frontend url shortener f
    - The shortened URL will be displayed below the form.
    - Click the shortened URL to be redirected to the original URL.
 
-
-### Backend Components
-
-- **UrlShortenerApplication.java**: Main class to run the Spring Boot application.
-- **UrlShortenerController.java**: REST controller to handle URL shortening and redirection.
-- **UrlShortenerService.java**: Service class to handle the business logic for URL shortening.
-- **UrlRequest.java**: Class to create an object that represent URL request payloads.
-- **CorsConfig.java**: Handling the cors configuration.
-
-### Frontend Components
-
-- **index.html**: Main HTML file with the form for URL input.
-- **style.css**: Basic CSS for styling the frontend.
-- **app.js**: JavaScript to handle form submission and interaction with the backend.
 
